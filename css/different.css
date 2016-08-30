@@ -1,0 +1,155 @@
+body{
+	background: url(../images/login.gif);
+}
+.navlogo{
+	position: absolute;
+	left: 100px;
+	top: 12px;
+}
+/* .register{
+	margin-bottom: 250px;
+} */
+/* 登录页面的表单样式 */
+.login form{
+	background: #f5fcfc;
+	width: 282px;
+	height: 440px;
+	position: absolute;
+	right: 158px;
+	top:96px;
+	padding: 25px 30px 50px;
+}
+.login form .s_color{
+	color: #f9b790;
+}
+.login form .name, .password, .validate{
+	width: 280px;
+	height: 40px;
+	margin-bottom: 30px;
+}
+.login form .name{
+	margin-top: 12px;
+}
+.login form .btn{
+	width: 280px;
+	height: 46px;
+	background: #d10048;
+	font-size: 20px;
+	line-height: 46px;
+	border-radius: 10px;
+	color:#fff;
+	margin-top: 22px;
+	margin-bottom: 36px;
+}
+.login .l_hezuo span{
+	width: 35px;
+	height: 27px;
+	display: block;
+	background: #000;
+	background: url(../images/qqbg.png) no-repeat 0 -51px;
+}
+/* 注册页面的样式 */
+.register form{
+	background: #f5fcfc;
+	width: 282px;
+	height: 440px;
+	position: absolute;
+	right: 158px;
+	top:96px;
+	padding: 25px 30px;
+}
+.register form .s_color{
+	color: #f9b790;
+}
+.register form .phone, .password1, .password2, .validate{
+	width: 280px;
+	height: 40px;
+	margin-bottom: 30px;
+}
+.register form .phone{
+	margin-top: 12px;
+}
+/* 为什么不能覆盖 */
+.register form .check a{
+	color: #d10048;
+	text-decoration: underline !important;
+}
+.register form .btn{
+	width: 280px;
+	height: 46px;
+	background: #d10048;
+	font-size: 20px;
+	line-height: 46px;
+	border-radius: 10px;
+	color:#fff;
+	margin-top: 22px;
+	margin-bottom: 36px;
+}
+.register .l_hezuo span{
+	width: 35px;
+	height: 27px;
+	display: block;
+	background: #000;
+	background: url(../images/qqbg.png) no-repeat 0 -51px;
+}
+/* 修改身份信息的页面样式 */
+.changeinfo{
+	height: 600px;
+	background: #fff;
+	padding: 24px 36px;
+	
+}
+.changeinfo .c_manage{
+	width: 168px;
+	height: 600px;
+	border-right: 1px solid #666666;
+	float: left;
+}
+.changeinfo .c_info{
+	width: 650px;
+	height: 600px;
+	float: left;
+	padding-left: 50px;
+	
+}
+.changeinfo .yiji{
+	/* height: 40px; */
+	line-height: 40px;
+	font-size: 16px;
+}
+}
+.changeinfo .yiji .erji{
+	/* height: 40px; */
+	line-height: 40px;
+	font-size: 14px;
+	/* display: block; */
+}
+.changeinfo .yiji .erji .sanji{
+	/* height: 26px; */
+	line-height: 26px;
+	font-size: 14px;
+	color: #666666;
+	/* display: block;
+	} */
+}
+.changeinfo .c_info .c_info_wrap{
+	
+	height: 40px;
+	line-height: 40px;
+}
+.changeinfo .c_info form p{
+	height: 20px;
+	line-height: 20px;
+	font-size: 16px;
+}
+.changeinfo .c_info_p{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 46px;
+}
+
+/* 信息及footer的位置 */
+.info{
+	margin-top: 774px;
+}
+

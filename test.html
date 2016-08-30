@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form id = "register">
+		<input type = "text" placeholder="请输入手机号" name = "phonenumber">
+		<br/>
+		<input type = "password" placeholder="请输入密码" name = "password">
+	</form>
+	<script src = "js/jquery-1.10.2.min.js"></script>
+	<script src = "js/jquery.validate.js"></script>
+	<script>
+		/*$(function(){
+			$("#register").validate({
+			rules:{
+				phonenumber:{required:true},//手机
+				password:{required:true},//密码
+				psdack:{required:true, equalTo:".password1"}//确认密码
+			}
+/*
+			messages:{
+				
+				reg_psd:{required:"请输入您的密码"},//密码
+				psdack:{required:"请输入相同的密码", equalTo:".password1"}//确认密码
+			},
+*/
+/*
+		});
+		})*/
+		$(function(){
+			$("#register").validate({
+			rules:{
+				phonenumber:{required:true},//手机
+				password:{required:true},//密码
+				
+			}
+		});
+		})
+	</script>
+
+	
+</html>

@@ -1,0 +1,602 @@
+body{
+	/* background: url(../images/login.gif); */
+	background: #f0f0f0;
+}
+.navlogo{
+	position: absolute;
+	left: 100px;
+	top: 12px;
+}
+/* .register{
+	margin-bottom: 250px;
+} */
+/* 登录页面的表单样式 */
+.login form{
+	background: #f5fcfc;
+	width: 282px;
+	height: 388px;
+	position: absolute;
+	right: 158px;
+	top:96px;
+	padding: 25px 30px;
+}
+.login form .s_color{
+	color: #f9b790;
+}
+.login form .name, .password, .validate{
+	width: 280px;
+	height: 40px;
+	margin-bottom: 30px;
+}
+.login form .name{
+	margin-top: 12px;
+}
+.login form .btn{
+	width: 280px;
+	height: 46px;
+	background: #d10048;
+	font-size: 20px;
+	line-height: 46px;
+	border-radius: 10px;
+	color:#fff;
+	margin-top: 22px;
+	margin-bottom: 36px;
+}
+.login .l_hezuo span{
+	width: 35px;
+	height: 27px;
+	display: block;
+	background: #000;
+	background: url(../images/qqbg.png) no-repeat 0 -51px;
+}
+/* 注册页面的样式 */
+.register form{
+	background: #f5fcfc;
+	width: 282px;
+	height: 388px;
+	position: absolute;
+	right: 158px;
+	top:96px;
+	padding: 25px 30px;
+}
+.register form .s_color{
+	color: #f9b790;
+}
+.register form .phone, .password1, .password2, .validate{
+	width: 280px;
+	height: 40px;
+	margin-bottom: 30px;
+}
+.register form .phone{
+	margin-top: 12px;
+}
+/* 为什么不能覆盖 */
+.register form .check a{
+	color: #d10048;
+	text-decoration: underline !important;
+}
+.register form .btn{
+	width: 280px;
+	height: 46px;
+	background: #d10048;
+	font-size: 20px;
+	line-height: 46px;
+	border-radius: 10px;
+	color:#fff;
+	margin-top: 22px;
+	margin-bottom: 36px;
+}
+.register .l_hezuo span{
+	width: 35px;
+	height: 27px;
+	display: block;
+	background: #000;
+	background: url(../images/qqbg.png) no-repeat 0 -51px;
+}
+/* 修改身份信息的页面样式 */
+.changeinfo{
+	height: 600px;
+	background: #fff;
+	padding: 24px 36px;
+	
+}
+.changeinfo .c_manage{
+	width: 168px;
+	height: 600px;
+	border-right: 1px solid #666666;
+	float: left;
+}
+.changeinfo .c_info{
+	width: 650px;
+	height: 600px;
+	float: left;
+	padding-left: 50px;
+	
+}
+.changeinfo .yiji{
+	/* height: 40px; */
+	line-height: 40px;
+	font-size: 16px;
+}
+}
+.changeinfo .yiji .erji{
+	/* height: 40px; */
+	line-height: 40px;
+	font-size: 14px;
+	/* display: block; */
+}
+.changeinfo .yiji .erji .sanji{
+	/* height: 26px; */
+	line-height: 26px;
+	font-size: 14px;
+	color: #666666;
+	/* display: block;
+	} */
+}
+.changeinfo .c_info .c_info_wrap{
+	
+	height: 40px;
+	line-height: 40px;
+}
+.changeinfo .c_info form p{
+	height: 20px;
+	line-height: 20px;
+	font-size: 16px;
+}
+.changeinfo .c_info_p{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 46px;
+}
+
+/* 健康养生页面 */
+
+.shouye{
+	width: 982px;
+	height: 130px;
+	background: #fff;
+	margin:0 auto;
+	margin-bottom: 20px;
+}
+.shouye p{
+	height: 40px;
+	line-height: 40px;
+	text-indent: 24px;
+}
+.shouye hr{
+	width: 800px;
+	margin-left: 50px;
+}
+.shouye li{
+	height: 40px;
+	line-height: 40px;
+	padding: 0 35px;
+	float: left;
+}
+.shouye li a{
+	font-size: 14px;
+}
+.shouye li a:hover{
+	color:#d10048;
+}
+.xiaoliang{
+	width: 982px;
+	/* height: 2000px; */
+	background: #fff;
+	margin: 0 auto;
+	
+}
+.x_table{
+	background: #535353;
+	width: 982px;
+	height: 38px;
+	/* 第二种解决方法overflow: hidden; */
+	/* margin-bottom: 30px; */
+}
+
+.xiaoliang li{
+	height: 38px;
+	float: left;
+	background: #535353;
+	text-align: center;
+	line-height: 38px;
+	padding:0 20px;
+	color: #fff;
+	margin-right: 14px;
+
+}
+.xiaoliang .x_list{
+	padding: 0 26px;
+	margin-top: 30px;
+	overflow: hidden;
+}
+.per_list{
+	position: relative;
+	width: 220px;
+	height: 310px;
+	margin: 0 6px 10px 6px;
+	float: left;
+	/* float: left; */
+}
+.per_list div{
+	width: 220px;
+	height: 220px;
+	border:1px solid #dddddd;
+}
+.per_list div img{
+	width: 100%;
+	height: 100%;
+	
+}
+.per_list .p1{
+	height: 38px;
+	line-height: 38px;
+	font-size: 14px;
+	color: #888888;
+}
+.per_list .p2{
+	height: 50px;
+	line-height: 60px;
+	color: #f52648;
+}
+.per_list .shopcar{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+/* healthlife页面页码 */
+.d_yema{
+	height: 118px;
+	background: #fff;
+}
+.yema{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: 38px;
+	margin-bottom: 50px;
+}
+.yema li{
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid #888888;
+	background: #fff;
+	color: #000;
+	line-height: 30px;
+	float: left;
+	padding:0 20px;
+	margin-right: 14px;
+
+
+}
+.yema li:hover{
+	background:#d10048;
+}
+
+/* 购物车页面 */
+.g_shopcar{
+	width: 930px;
+	background: #fff;
+	margin: 0 auto;
+	padding: 24px 26px 40px;
+	margin-bottom: 20px;
+}
+.gsr_car{
+	/* margin:25px 0 18px 0; */
+	/* margin-top: 25px; */
+}
+.g_info, .g_port{
+	width: 930px;
+}
+.g_name, .g_port{
+	background: #fafafa;
+}
+.g_name{
+	height: 36px;
+	line-height: 36px;
+	margin-top: 18px;
+	padding-left: 12px;
+	width: 918px;
+}
+.g_name ul{
+	float: right;
+}
+.g_name li{
+	float: right;
+	padding:0 36px;
+	height: 36px;
+}
+.g_info{
+	height: 36px;
+	line-height: 36px;
+}
+.g_info p{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.g_port{
+	height: 48px;
+	line-height: 48px;
+}
+.g_port ul{
+	float: left;
+}
+.g_port ul li{
+	float: left;
+	padding: 0 10px;
+}
+.g_port .gpt_baoyou{
+	float: left;
+	margin-left:50px; 
+}
+.g_port .gpr_calc{
+	float: right;
+	
+}
+.g_port input{
+	height: 48px;
+	background: #e9226a;
+	color: #fff;
+}
+/* 加价购商品页面 */
+.jiajia{
+	width: 930px;
+	background: #fff;
+	margin: 0 auto;
+	padding:26px 26px 40px;
+}
+/* 总体商品列表 */
+.add_list{
+	margin-top: 12px;
+	overflow: hidden;
+}
+/* 每一个小商品列表 */
+.per_addlist{
+	width: 158px;
+	margin:0 13px 20px;
+	float: left;
+	/* height: 300px; */
+}
+.per_addlist .p1{
+	height: 20px;
+	line-height: 20px;
+	font-size: 16px;
+	margin-top: 12px;
+	color: #888888;
+}
+.per_addlist .p4{
+	height: 20px;
+	line-height: 20px;
+	color: #fea417;
+}
+.per_addlist .p2{
+	height: 20px;
+	line-height: 20px;
+	color: #d10048;
+	font-size: 14px;
+}
+.per_addlist .p2 span{
+	text-decoration: line-through;
+}
+.per_addlist .p4{
+	
+	color: #fea417;
+}
+.pat_add{
+	width: 110px;
+	height: 36px;
+	border: 1px solid #888;
+	border-radius: 5px;
+	line-height: 36px;
+	text-align: center;
+}
+.pat_add:hover{
+	background: #d10048;
+}
+/* 小商品列表中的图片 */
+.pat_img{
+	width: 158px;
+	height: 158px;
+	border:1px solid #888;
+}
+.pat_img img{
+	width: 100%;
+	height: 100%;
+}
+
+/* 确认订单信息网页pay.html */
+/* 上部表单 */
+.unp1{
+	margin-top: 
+}
+.unhr1{
+	height: 2px;
+	border: none;
+	border-top:2px dashed #edebe9;
+}
+.mp_address, .trans, .pay_money,.good_list {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	padding:30px 0 24px 16px;
+}
+.m_wrap{
+	width: 930px;
+	background: #fff;
+	margin:0 auto;
+	padding: 1px 26px 66px;
+}
+.mp_p1{
+	font-size: 16px;
+	height: 16px;
+	line-height: 16px;
+	margin-bottom: 16px;
+	margin-top: 28px;
+}
+.input_uni{
+	height: 30px;
+	margin-bottom: 12px;
+	border:1px solid rgba(0, 0, 0, 0.2);
+}
+.un1{
+	width: 162px;
+	margin-top: 22px;
+}
+.un2{
+	width: 424px;
+	height: 40px;
+}
+.un3{
+	width: 100px;
+}
+.un4{
+	width: 162px;
+}
+.mp_address form select{
+	height:30px;
+	margin-bottom: 12px;
+}
+.manage_add {
+	color: #888;
+}
+.sava_add{
+	width: 120px;
+	height: 30px;
+	background: #db085a;
+	border-radius: 5px;
+	line-height: 30px;
+	text-align: center;
+	color: #fff;
+	margin-left: 80px;
+}
+.sava_add:hover{
+	background: #a51e4d;
+}
+
+/* 取货方式 */
+.trans select{
+	height:30px;
+	margin-bottom: 12px;
+}
+/* 网上付款 */
+.pay_money{
+	/* height: 256px; */
+	background: #fff;
+}
+.pay_money ul{
+	height: 170px;
+	margin-top: 24px;
+}
+.pay_money li{
+	float: left;
+	height: 30px;
+	width: 108px;
+	margin-right: 60px;	
+	margin-bottom: 8px;
+	
+
+}
+/* 商品清单 */
+.good_list{
+	height: 110px;
+	
+}
+.good_list .gt_left, .gt_mid, .gt_right,{
+	float: left;
+	margin-top: 34px;
+	/* position: absolute;
+	top:50%;
+	transform: translateY(-50%); */
+}
+.gt_left{
+	width: 300px;
+	height: 92px;
+
+}
+.gt_left .gl_lside{
+	float: left;
+	margin-right: 10px;
+}
+.gl_lside{
+	border:1px solid #eee;
+}
+.gl_rside p{
+	height: 20px;
+	line-height: 20px;
+}
+.gl_rside .unlist_p2{
+	color: #c2a5a5;
+}
+.gt_mid, .gt_right{
+	width: 20px;
+	padding: 0 80px;
+	float: right;
+}
+.confirm_good{
+	height: 60px;
+	line-height: 60px;
+	/* margin-left: 242px; */
+	float: right;
+}
+.cg_wrap{
+	height: 60px;
+}
+.hand_good{
+	height: 70px;
+	border: 1px solid rgba(0,0,0,0.3);
+	margin-top: 16px;
+	box-shadow: 10px 10px 10px #888;
+	
+}
+.hand_good .h_wrap{
+	float: right;
+}
+.ac_money, .commit_ck{
+	float: right;
+	margin-left: 16px;
+}
+.ac_money{
+	height: 40px;
+	width: 202px;
+	line-height: 70px;
+	font-size: 16px;
+	
+}
+.ac_money span{
+	color: #ed2a6f;
+
+}
+.commit_ck{
+	height: 40px;
+	width: 102px;
+	line-height: 40px;
+	text-align: center;
+	background: #ed2a6f;
+	color: #fff;
+	font-size: 18px;
+	margin-top: 12px;
+	box-shadow: 1px 1px 1px #888;
+}
+.commit_ck:hover{
+	background: #a51e4d;
+}
+
+
+
+
+
+
+
+/* 信息及footer的位置 */
+.main{
+	margin-bottom: 66px;
+}
+.info{
+	/* margin-top: 774px;
+	margin-bottom:415px; */
+	margin-bottom: 0;
+}
+.footer{
+	margin-bottom: 0;
+}
+
+

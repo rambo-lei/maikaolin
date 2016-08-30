@@ -1,0 +1,366 @@
+/* reset */
+html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -webkit-overflow-scrolling: touch;}
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;}
+header,footer,section,article,aside,nav,address,figure,figcaption,menu,details{display:block;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;font-weight:normal;}
+html,body,fieldset,img,iframe,abbr{border:0;}
+i,cite,em,var,address,dfn{font-style:normal;}
+[hidefocus],summary{outline:0;}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6,small{font-size:100%;}
+sup,sub{font-size:83%;}
+pre,code,kbd,samp{font-family:inherit;}
+textarea{overflow:auto;resize:none;}
+label,summary{cursor:default;}
+a,button{cursor:pointer;-webkit-appearance: none;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+input[type="button"],input[type="submit"]{-webkit-appearance: none;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+h1,h2,h3,h4,h5,h6,em,strong,b{font-weight:bold;}
+del,ins,u,s,a,a:hover{text-decoration:none;}
+body,textarea,input,button,select,keygen,legend{font:14px/1.14 Microsoft Simhei,"黑体",Micorsoft Yahei,Helvetica,"Heiti SC","Droid Sans","Droidsansfallback",sans-serif;color:#333;outline:0;}
+html{font-size: 100px; height: 100%; min-width: 320px; min-height: 568px;}
+body{font-size: 14px; background-color: #fff;}
+/*a,a:hover{color:#333;}*/
+
+/* function */
+.f-cb { zoom: 1;}
+.f-cb:after { display: block; clear: both; visibility: hidden; height: 0; overflow: hidden; content: "";}
+.f-dn { display: none;}
+.f-db { display: block;}
+.f-dbb { display: block !important;}
+.f-fl { float: left;}
+.f-fr { float: right;}
+.f-oh { overflow: hidden;}
+.f-pr { position: relative;}
+.f-pa { position: absolute;}
+.f-tac { text-align: center;}
+
+
+/* 公用头部、尾部和侧边 */
+/* 搜索框 */
+.sline{
+	width: 982px;
+	height: 80px;
+	background:#a9a9a9; 
+	position: relative;
+	margin:0 auto;
+	display: none;
+}
+.sline .s_wrap{
+	width: 693px;
+	position: absolute;
+	left:50%;
+	margin-left: -347px;
+	top: 50%;
+	margin-top: -20px;
+	/* transform: translateX(-50%); */
+	/* transform: translateY(-50%); */
+	/* left: 207px;
+	top: 20px; */
+	background: #fff;
+	border:1px solid #000;
+	
+
+}
+.sline .s_wrap .search{
+	width: 590px;
+	height: 40px;
+	border:none;
+}
+.sline .s_wrap .btn{
+	width: 96px;
+	height: 43px;
+	background: #000;
+	color: #fff;
+	border:none;
+}
+.sline .cha{
+	position: absolute;
+	left:87%;
+	top: 50%;
+	margin-top: -20px;
+}
+/* 侧边栏样式 */
+.leftBar{
+	background: #d10048; 
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top:0;
+}
+.leftBar .l_list{
+	background: #d10048;
+	width: 74px;
+	height: 48px;
+	text-align: center;
+
+/* 	list-style-image: url("../images/jianbian.jpg"); */
+	/* padding: 0 10px;
+	 */
+	 border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.leftBar .l_list a{
+	font-size: 12px;
+	line-height: 48px;
+	color:#fff;
+	text-align: center;
+}
+.leftBar .l_list:hover{
+	background: #db366f;
+}
+.leftBar .l_list .hideul{
+	background: #ababab;
+	height: 100%;
+	position: fixed;
+	left:74px;
+	top:0;
+	display: none;
+
+}
+.leftBar .l_list .h_list{
+	width: 74px;
+	height: 48px;
+	text-align: center;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.leftBar .h_list a{
+	font-size: 12px;
+	color: #fff;
+	line-height: 48px;
+}
+/* hideBar隐藏栏 */
+/* .hideBar{
+	width: 67px;
+	height: 100%;
+	position: fixed;
+	left: 74px;
+	top:0;
+	background: #ababab;
+	display: none;
+} */
+/* .hideBar .h_list{
+	width: 74px;
+	height: 48px;
+	text-align: center;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.hideBar .h_list:hover{
+	background: #db366f;
+}
+.hideBar .h_list a{
+	font-size: 12px;
+	color: #fff;
+	line-height: 48px;
+} */
+/* 右边定位图标 */
+.right_po{
+	position: fixed;
+	right: 10px;
+	top:90px;
+}
+/* .right_po .bottom{
+	display: none;
+} */
+.right_po .fourth {
+	position: fixed;
+	right:70px;
+	top:180px;
+	display: none;
+	z-index: 100;
+}
+.container{
+	width: 982px;
+	background: #f0f0f0;
+	margin:0 auto;
+}
+/* nav导航 */
+.nav{
+	margin:0 auto;
+	height: 70px;
+	background: #f0f0f0;
+	position: relative;
+}
+.nav .logo{
+	margin-top:18px;
+	float: left;
+}
+.nav .search{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left:612px;
+	top:30px;
+	background: url(../images/navbg.png) no-repeat 0 -18px ;
+}
+.nav .good{
+	width: 33px;
+	height: 27px;
+	position: absolute;
+	right:172px;
+	top:26px;
+	background: url(../images/che.jpg) no-repeat 0 0px ;
+}
+/* 1.此处常规的定位不行，使用了定位，是否可以用其他方法
+2.list-style-image,会使位置不准确，怎么调整？
+ */
+/* .nav .search{
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-left: 200px;
+	background: url(../images/navbg.png) no-repeat 0 -18px ;
+}  */
+/* .nav .good{
+	width: 33px;
+	height: 27px;
+	float: right;
+	margin-right: 172px;
+	background: url(../images/navbg.png) no-repeat 0 0px ;
+} */
+.nav ul{
+	margin-top:34px;
+	margin-left: 320px;
+	float:left;
+	
+}
+.nav ul li{
+	float:left;
+	list-style-image: url("../images/border.jpg");
+	/* background: url("../images/border.jpg") no-repeat 0 0; */
+	
+}
+.nav ul .first{
+	width: 38px;
+
+}
+.nav ul .third{
+	width: 58px;
+}
+.nav ul li a{
+	font-size: 14px;
+	text-align: center;
+	color:#888888;
+}
+.nav ul li a:hover{
+	color:#a295b2;
+}
+.tel{
+	float:right;
+	margin-top:34px;
+}
+/* info部分 */
+.info .tubiao{
+	position: relative;
+	height: 120px;
+}
+.info .dingwei{
+	position: absolute;
+	/*left:280px;*/
+	width: 616px;
+	left: 50%;
+	margin-left: -308px;
+}
+.info dl{
+	float:left;
+	width: 108px;
+	/* text-align: center; */
+	margin-right: 46px;
+
+}
+
+.info dt {
+	width: 76px;
+	height: 76px;
+	margin: 0 auto;
+	background-image: url("../images/footbg.png");
+	background-repeat: no-repeat;
+}
+
+.info .dl1{
+	background-position: 0 -228px;
+}
+.info .dl2{
+	background-position: 0 -76px;
+}
+.info .dl3{
+	background-position: 0 0px;
+}
+.info .dl4{
+	background-position: 0 -152px;
+}
+
+.info dl dd{
+	line-height: 44px;
+	font-size: 18px;
+	text-align: center;
+}
+.info .wenzi{
+	height: 190px;
+}
+.info .wenzi ul{
+	width: 116px;
+	float: left;
+}
+.info .wenzi .wrap{
+	margin-left: 250px;
+}
+.info .wenzi p{
+	font-size: 18px;
+	line-height: 36px;
+	color: #888888;
+}
+.info .wenzi a{
+	color:#888888;
+	line-height: 30px;
+}
+.info .fuwu, .dingyue{
+	float:left;
+}
+/* footer部分 */
+.footer {
+	height: 104px;
+	position: relative;
+	margin:0 auto;	
+}
+.footer ul{
+	position: absolute;
+	left:348px;
+	top:36px;
+	
+
+}
+/* 去除右边框存在问题 */
+.footer ul li{
+	float: left;
+	padding: 0 10px;
+	/* 怎么让每一个li自适应，用padding撑开，而不是每一个li写一个宽度 */
+	border-right: 1px solid #888888;
+	text-align: center;
+}
+
+.footer ul li a{
+	font-size: 14px;
+	color:#888888;
+	text-align: center;
+}
+
+.footer ul li:last-child {
+	border-right: none;
+}
+
+.footer div{
+	width: 25px;
+	height: 28px;
+	background: url(../images/navbg.png) no-repeat 0 -42px;
+	position: absolute;
+	left:323px;
+	bottom:20px;
+}
+.footer span p{
+	font-size: 14px;
+	color:#888888;
+	position: absolute;
+	left:350px;
+	top:62px;
+
+}
