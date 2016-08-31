@@ -5,11 +5,6 @@
 	<title>麦考林首页</title>
 	<link rel="stylesheet" type="text/css" href="css/common.css">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
-	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-	<script type="text/javascript" src="js/move.js"></script>
-	<script type="text/javascript" src="js/lunbo.js"></script>
-	<script type="text/javascript" src="js/function.js"></script>
-	
 </head>
 <body>
 <!-- 搜索框 -->
@@ -36,11 +31,11 @@
 			
 		</li>
 		<li class = "l_list"><a href = "#">品牌系列</a></li>
-		<li class = "l_list"><a href = "#">购物商城</a></li>
+		<li class = "l_list"><a href = "http://localhost/html/healthlife.html">购物商城</a></li>
 		<li class = "l_list"><a href = "#">美容护肤</a></li>
 		<li class = "l_list"><a href = "#">健康养生</a></li>
 		<li class = "l_list"><a href = "#">20周年惠</a></li>
-		<li class = "l_list"><a href = "#">积分换购</a></li>
+		<li class = "l_list"><a href = "http://localhost/html/gouwuche.html">积分换购</a></li>
 		<li class = "l_list"><a href = "#">Vip会员专区</a></li>
 		<li class = "l_list"><a href = "#">电子刊物</a></li>
 		<li class = "l_list"><a href = "#">关于麦考林</a></li>
@@ -63,9 +58,9 @@
 		<img class = "logo" src = "images/logo.jpg">
 		<a><div class = "search"></div></a>
 		<ul>
-			<li class = "first"><a href = "#">登录</a></li>
-			<li class = "first"><a href = "#">注册</a></li>
-			<li class  = "third"><a href = "#">我的账户</a></li>
+			<li  class = "first"><a id = "all_denglu" href = "http://localhost/html/login.html">登录</a></li>
+			<li class = "first"><a href = "http://localhost/html/register.html">注册</a></li>
+			<li  class  = "third"><a id = "show_account" href = "http://localhost/html/changeinfo.html">我的账户</a></li>
 		</ul>
 		<div class = "good"></div>
 		<img class = "tel" src = "images/telus.jpg">
@@ -453,5 +448,14 @@
 		<span><div></div><p>沪ICP备05003606号Copyright&copy;2011-2015 MecoxLane Inc.All Rights Reserved</p></span>
 	</div>
 </div>
+
+
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/jquery.form.js"></script>
+<script src="js/move.js"></script>
+<script src="js/lunbo.js"></script>
+<script src="js/function.js"></script>
 </body>
 </html>

@@ -398,6 +398,9 @@ body{
 .pat_img{
 	width: 158px;
 	height: 158px;
+	border:1px solid #eee;
+}
+.pat_img:hover{
 	border:1px solid #888;
 }
 .pat_img img{

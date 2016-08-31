@@ -3,6 +3,7 @@ var Function = {
 	init:function(){
 		this.initDom();
 		this.bindEvent();
+		this.isLogin();
 	},
 	initDom:function(){
 		var dom = this.dom;
@@ -28,6 +29,13 @@ var Function = {
 		/*登录页面*/
 		dom.loginBtn = $("#logbtn");//登录按钮
 		dom.remempwd = $("#rememberpwd");//记住密码复选框
+
+		/*每一个页面的nav处的用户名修改*/
+		dom.escape = $("#all_denglu");
+		dom.show_account = $("#show_account");
+
+		//购物车页面的跳转按钮
+		dom.car_shopsto = $("#gpr_calc");
 
 
 
@@ -211,6 +219,7 @@ var Function = {
 		dom.loginBtn.click(function(){
 			var name  = $("input[name = 'username']").val();
 			var pwd  = $("input[name = 'password']").val();
+			console.log(111);
 
 			$.get("http://localhost/php/login.php", {
 				name:name,
@@ -218,25 +227,42 @@ var Function = {
 			}, function(data){
 				if(data && data.code == 0){
 					alert(data.msg);
+					location.href = '/';//重新定向到首页
 				}else{
 					alert(data.msg);
 				}
 			},"json")
+			return false;
 		})
 
-		
+		//点击购物车的立即结算按钮，跳到pay.html
+		dom.car_shopsto.click(function(){
+			if(true){
+				alert("1111")
+				location.href = "http://localhost/html/pay.html";
+			}
+			
+		})
 
-	
 
 
+	},
+
+	//判断是否成功登录，如果成功登录，在nav处，显示用户名和退出登录
+	isLogin: function() {
+		var dom = this.dom;
+
+		var username = $.cookie('username');
+
+		console.log(username);
 
 
+		if (username) {
+			dom.escape.replaceWith('<a id = "show_account" href = "#">' + "退出" + "</a>");
+			/*dom.escape.replaceWith("<a id = "all_denglu" href = "#">退出</a>");*/
+			dom.show_account.replaceWith('<a id = "show_account" href = "#">' + username + "</a>");
+		}
 
-
-
-
-		
-		
 	}
 
 }
